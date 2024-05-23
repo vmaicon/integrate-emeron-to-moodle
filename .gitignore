@@ -1,0 +1,59 @@
+# Arquivos Python padrão
+__pycache__/
+*.pyc
+*.pyo
+
+# Pastas
+analysis/
+annotations/
+dataset/
+parquet/
+sql/
+
+# Arquivos de ambiente virtual
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos temporários
+tmp/
+temp/
+logs/
+*.log
+*.tmp
+
+# Arquivos IDE
+*.iml
+*.idea/
+
+# Outros arquivos
+*.md
+*.txt
+README.md
+
+# Arquivos padrão do VSCode
+.vscode/
+settings.json
+tasks.json
+keymaps.json
+code-snippets/
+extensions.json
+workbench.json
+
+# Arquivos do histórico do VSCode
+.history/
+**/.history/*
+
+# Arquivos temporários do VSCode
+**/.vscode/extensions/**/*/*/temp/*
+**/.vscode/extensions/**/*/*/tmp/*
+
+# Arquivos de cache do VSCode
+**/.vscode/cache/*
+
+# Arquivos de logs do VSCode
+**/.vscode/logs/*
+
+# Excessões
+!requirements.txt
